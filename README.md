@@ -10,6 +10,10 @@ This repository was created so that the community could contribute for the benef
 
 I haven't yet written the style guide.  But, it's important that the snippets all match a style.  So, do your best to follow the conventions already implemented.
 
+### Mentions
+
+Daylerees has a nice repository of snippets at [https://github.com/laravel/sublime-snippets](https://github.com/laravel/sublime-snippets).
+
 ### License
 
 These snippets are open-sourced software licensed under the MIT License.
