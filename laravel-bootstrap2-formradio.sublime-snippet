@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+
+    <div class="control-group">
+        {{ Form::label( '', '${2:human_name}', array( 'class' => 'control-label')) }}
+        <div class="controls">
+            <label class="radio">
+                {{ Form::radio( '${1:field_name}', '${3:yes}', Input::old( '${1:field_name}') == '${3:yes}') }}
+                Yes
+            </label>
+            <label class="radio">
+                {{ Form::radio( '${1:field_name}', '${4:no}', Input::old( '${1:field_name}') == '${4:no}') }}
+                No
+            </label>
+        </div>
+    </div>
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>formradio</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

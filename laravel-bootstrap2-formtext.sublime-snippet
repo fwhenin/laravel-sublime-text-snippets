@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+
+	<div class="control-group">
+		{{ Form::label( '${1:field name}', '${2:real name}', array( 'class' => 'control-label')) }}
+		<div class="controls">
+			{{ Form::text( '${1:field name}', Input::old( '${1:field name}')) }}
+		</div>
+	</div>
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>formtext</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
