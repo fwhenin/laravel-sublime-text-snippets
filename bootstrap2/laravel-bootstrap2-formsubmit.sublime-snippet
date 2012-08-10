@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-{{ Form::submit( 'Save', array( 'btn btn-success' ) ) }}
+{{ Form::submit( 'Save', array( 'class' => 'btn btn-success' ) ) }}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>formsubmit</tabTrigger>
