@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+{{ Form::submit( 'Save', array( 'class' => 'btn btn-success' ) ) }}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>formsubmit</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
